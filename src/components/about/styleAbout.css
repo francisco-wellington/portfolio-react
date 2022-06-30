@@ -1,0 +1,78 @@
+.about-container h2 {
+  color: #fff;
+  font-size: 2.9rem;
+  text-align: center;
+  padding: 2rem;
+  position: relative;
+  margin-top: 3.8rem;
+  margin-bottom: 2.4rem;
+}
+.about-container h2::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 4px;
+  width: 80px;
+  background-color: crimson;
+  border-radius: 15px;
+}
+
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 6rem 0 6rem 0;
+}
+.about h3 {
+  color: #fff;
+  font-size: 30px;
+  margin: 16px 0 32px 0;
+  letter-spacing: 2px;
+}
+.about p {
+  line-height: 180%;
+  text-align: justify;
+  margin-bottom: 3rem;
+  width: 45vw;
+}
+
+.right {
+  margin-left: 32px;
+}
+.about .redes-sociais {
+  display: flex;
+  gap: 1.5rem;
+  font-size: 6rem;
+  margin-bottom: 1.5rem;
+}
+.about .redes-sociais a:hover {
+  color: crimson;
+  transform: translateY(-10px);
+}
+.about img {
+  border-radius: 1.5rem;
+  height: 35rem;
+}
+
+@media screen and (max-width: 740px) {
+  .about {
+    display: block;
+    width: 100vw;
+    margin: 0 auto;
+  }
+  .about img {
+    display: none;
+  }
+  .about h2 {
+    font-size: 40px;
+  }
+  .about p {
+    width: 80vw;
+    font-size: 1.4rem;
+  }
+  .about .redes-sociais {
+    font-size: 4.6rem;
+  }
+}

@@ -2,10 +2,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
 }
 html {
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -13,6 +14,8 @@ body {
   background-color: #000;
 }
 h1,
+h2,
+h3,
 p,
 a {
   color: #fff;

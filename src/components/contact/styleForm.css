@@ -1,0 +1,63 @@
+label {
+  color: rgb(68, 68, 68);
+  margin-bottom: 0.6rem;
+}
+
+form {
+  background-color: #f4f4f4;
+  display: flex;
+  flex-direction: column;
+  padding: 6rem 4rem;
+  margin: auto;
+  max-width: 60vw;
+}
+button {
+  width: 20vw;
+}
+form input,
+form textarea {
+  margin-bottom: 1rem;
+  padding: 1rem 1.8rem;
+  font-size: 1.4rem;
+  background-color: #cacaca;
+  border-radius: 5px;
+  border: 2px solid #cacaca;
+  color: rgb(68, 68, 68);
+}
+.form {
+  margin-bottom: 12rem;
+}
+.form h2 {
+  color: #fff;
+  font-size: 2.9rem;
+  text-align: center;
+  padding: 2rem;
+  position: relative;
+  margin-top: 3.8rem;
+  margin-bottom: 2.4rem;
+}
+.form h2::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 4px;
+  width: 80px;
+  background-color: crimson;
+  border-radius: 15px;
+}
+
+.form .btn {
+  letter-spacing: 0.5px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 1.4rem;
+  padding: 1.2rem 2.6rem;
+  border-radius: 0.8rem;
+  border: 2px solid crimson;
+  cursor: pointer;
+  transition: all 0.3s;
+  background-color: crimson;
+}

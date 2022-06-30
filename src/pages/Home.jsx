@@ -1,20 +1,24 @@
 import React from 'react'
-import Navbar from '../components/Navbar'
+import AboutHome from '../components/about/AboutHome'
+import FormContact from '../components/contact/FormContact'
+import Footer from '../components/footer/Footer'
+import Navbar from '../components/header/Navbar'
+import HeroImg from '../components/heroImg/HeroImg'
+import Work from '../components/projects/Work'
+import Skills from '../components/skills/Skills'
 import './style.css'
 
 const Home = () => {
   return (
     <>
+      <span id="home"></span>
       <Navbar />
-      <div className="container">
-        <h1>Home</h1>
-        <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate
-          aliquam quidem at maxime sunt omnis atque, iusto soluta quod,
-          dignissimos voluptatum perferendis dolorem nemo iste itaque laborum
-          mollitia excepturi voluptate.
-        </p>
-      </div>
+      <HeroImg />
+      <AboutHome />
+      <Skills />
+      <Work />
+      <FormContact />
+      <Footer />
     </>
   )
 }

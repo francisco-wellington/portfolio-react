@@ -1,0 +1,125 @@
+.hero {
+  height: 100vh;
+  width: 100%;
+}
+.mask {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.into-img {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  object-fit: cover;
+}
+
+.mask::after {
+  content: '';
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #000;
+  opacity: 0.8;
+}
+.hero .content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.hero .content h2 {
+  color: #fff;
+  font-size: 7rem;
+  padding: 0.6rem 0 1.5rem;
+}
+.hero .content h2 span {
+  color: #fff;
+  opacity: 0;
+  font-weight: 400;
+  animation: flashe 1.1s infinite;
+}
+@keyframes flashe {
+  0% {
+    opacity: 100%;
+  }
+  50% {
+    opacity: 100%;
+  }
+}
+
+.hero .content p {
+  font-size: 3rem;
+  letter-spacing: 1.5px;
+}
+.content .btn-home {
+  display: flex;
+  gap: 0.9rem;
+  align-items: center;
+  justify-content: center;
+}
+.content .btn-home a {
+  letter-spacing: 0.5px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 1.4rem;
+  padding: 1.2rem 2.6rem;
+  border-radius: 0.8rem;
+  border: 2px solid crimson;
+  cursor: pointer;
+  transition: all 0.3s;
+  background-color: crimson;
+}
+
+.content .btn-home .btn-outline {
+  background-color: transparent;
+  border: 2px solid crimson;
+}
+
+@media screen and (max-width: 740px) {
+  .into-img {
+    width: 100%;
+    height: 100vh;
+  }
+  .hero .content {
+    position: relative;
+    top: -50vh;
+    left: 50%;
+    text-align: center;
+  }
+  .hero .content h2 {
+    font-size: 6rem;
+    padding-inline: 2.4rem;
+  }
+
+  .hero .content p {
+    font-size: 2rem;
+    letter-spacing: 1.5px;
+  }
+  .content .btn-home a {
+    font-size: 1.2rem;
+    padding: 0.8rem 2.2rem;
+  }
+}
+@media screen and (max-width: 440px) {
+  .hero .content h2 {
+    font-size: 5rem;
+  }
+
+  .hero .content p {
+    font-size: 1.8rem;
+    letter-spacing: 1.5px;
+  }
+  .content .btn-home {
+    flex-direction: column;
+  }
+  .content .btn-home a {
+    width: 60%;
+  }
+}
