@@ -13,7 +13,7 @@ const Skills = () => {
   return (
     <div className="skill" id="skill">
       <div className="header-skill">
-        <h2>Skills</h2>
+        <h2> My Skills</h2>
       </div>
       <div className="container-skill">
         <div className="skill-box">
