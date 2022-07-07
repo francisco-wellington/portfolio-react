@@ -1,20 +1,51 @@
-import React from 'react'
+import React, { useRef } from 'react'
+import emailjs from 'emailjs-com'
 import './styleForm.css'
 
 const FormContact = () => {
+  const form = useRef()
+
+  function sendEmail(e) {
+    e.preventDefault()
+
+    emailjs
+      .sendForm(
+        'service_j2k5ro8',
+        'template_rq66j8o',
+        e.target,
+        '4Q6hToD6u3w8RhigK'
+      )
+      .then(
+        result => {
+          console.log(result.text)
+          alert('Email Successfully Sent!')
+        },
+        error => {
+          console.log(error.text)
+        }
+      )
+  }
+
   return (
     <div id="contact" className="form">
-      <h2>Contact</h2>
-      <form>
+      <form ref={form} onSubmit={sendEmail}>
+        <h2>Contact</h2>
         <label> Your Name </label>
-        <input type="text" required />
+        <input type="text" name="name" required />
         <label> Email </label>
-        <input type="email" required />
+        <input type="email" name="user_email" required />
         <label> Subject </label>
-        <input type="text" />
+        <input type="text" name="subject" />
         <label> Message </label>
-        <textarea row="12" placeholder="Type your message here" required />
-        <button className="btn">Submit</button>
+        <textarea
+          name="message"
+          row="4"
+          placeholder="Type your message here"
+          required
+        />
+        <button className="btn" type="submit">
+          Submit
+        </button>
       </form>
     </div>
   )
