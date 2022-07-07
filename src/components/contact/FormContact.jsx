@@ -3,7 +3,7 @@ import './styleForm.css'
 
 const FormContact = () => {
   return (
-    <div id='contact' className='form'>
+    <div id="contact" className="form">
       <h2>Contact</h2>
       <form>
         <label> Your Name </label>
@@ -13,9 +13,8 @@ const FormContact = () => {
         <label> Subject </label>
         <input type="text" />
         <label> Message </label>
-        <textarea row='12' placeholder='Type your message here' required />
-        <button className='btn'>Submit</button>
-
+        <textarea row="12" placeholder="Type your message here" required />
+        <button className="btn">Submit</button>
       </form>
     </div>
   )

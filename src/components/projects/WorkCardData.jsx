@@ -4,9 +4,8 @@ import pro3 from '../../assets/projeto3.png'
 import pro4 from '../../assets/projeto4.png'
 import pro5 from '../../assets/projeto5.png'
 import pro6 from '../../assets/projeto6.png'
-
-
-
+import pro7 from '../../assets/projeto7.png'
+import pro8 from '../../assets/projeto8.png'
 
 const ProjectCardData = [
   {
@@ -43,6 +42,20 @@ const ProjectCardData = [
     text: 'Esta éuma calculadora, que realiza calculos baseado na empresa na qual trabalhei, onde o objetivo era de calcular, a numeração dos blocos numerado.',
     view: 'https://wellingtonsilva12.github.io/CalculadoraBlocoAzul/',
     source: 'https://github.com/WellingtonSilva12/CalculadoraBlocoAzul'
+  },
+  {
+    imgsrc: pro7,
+    title: 'Task List - React',
+    text: 'Projeto criado para expandir, testar e desenvolver ainda mais meus conhecimentos de reactjs. E desta vez usei um banco de dados não relacional, que me ajudou a criar, editar e excluir as tarefas. ',
+    view: 'https://fastidious-semifreddo-4c1f31.netlify.app',
+    source: 'https://github.com/WellingtonSilva12/task-reactjs'
+  },
+  {
+    imgsrc: pro8,
+    title: 'Social Links',
+    text: 'Como o uso do linktree é bem limitado no modo free, a empresa decidiu, criar o seu próprio modelo de links, para colocar na bio do instagram, sendo que a mesma é limitada para apenas um link. ',
+    view: 'https://dancing-crisp-ee6b2a.netlify.app',
+    source: 'https://github.com/WellingtonSilva12/nobre-links'
   }
 ]
 

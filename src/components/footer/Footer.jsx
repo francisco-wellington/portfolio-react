@@ -41,8 +41,13 @@ const Footer = () => {
         <div className="contact-footer">
           <p>get in touch</p>
         </div>
-        <div className='desc-footer'>
-          <p>2022 &copy; All Rights Reserved • <a href="https://www.linkedin.com/in/nwellingtonsilva/">Wellington Silva</a></p>
+        <div className="desc-footer">
+          <p>
+            2022 &copy; All Rights Reserved •{' '}
+            <a href="https://www.linkedin.com/in/nwellingtonsilva/">
+              Wellington Silva
+            </a>
+          </p>
         </div>
       </div>
     </div>

@@ -13,23 +13,31 @@ const AboutHome = () => {
         <div className="right">
           <h3>Wellington Silva</h3>
           <p>
-            Frontend Developer, focado no desenvolvimento Web, mobile e desktop, com ampla experiencia em javascript e suas bibliotecas / framework, buscando sempre seguir os padrões de boas práticas de
-            programação e código limpo.
+            Frontend Developer, focado no desenvolvimento Web, mobile e desktop,
+            com ampla experiencia em javascript e suas bibliotecas / framework,
+            buscando sempre seguir os padrões de boas práticas de programação e
+            código limpo.
           </p>
           <div className="redes-sociais">
-            <a href="https://www.linkedin.com/in/nwellingtonsilva/">
+            <a
+              href="https://www.linkedin.com/in/nwellingtonsilva/"
+              target="blank"
+            >
               <i class="bx bxl-linkedin-square"></i>
             </a>
-            <a href="https://github.com/WellingtonSilva12">
+            <a href="https://github.com/WellingtonSilva12" target="blank">
               <i className="bx bxl-github"></i>
             </a>
-            <a href="https://www.behance.net/wellingtonsilvaa">
+            <a href="https://www.behance.net/wellingtonsilvaa" target="blank">
               <i className="bx bxl-behance"></i>
             </a>
-            <a href="https://www.instagram.com/wellington.costaa_/">
+            <a
+              href="https://www.instagram.com/wellington.costaa_/"
+              target="blank"
+            >
               <i className="bx bxl-instagram-alt"></i>
             </a>
-            <a href="mailto:wellingtonsilva180g@gmail.com">
+            <a href="mailto:wellingtonsilva180g@gmail.com" target="blank">
               <i className="bx bxl-google-plus-circle"></i>
             </a>
           </div>

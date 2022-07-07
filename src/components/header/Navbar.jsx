@@ -30,7 +30,6 @@ const Navbar = () => {
   }
   window.addEventListener('scroll', changeColor)
 
-
   return (
     <nav className={color ? 'header header-bg' : 'header'}>
       <a href="#home">
@@ -44,7 +43,7 @@ const Navbar = () => {
           <a href="#home">Home</a>
         </li>
         <li>
-          <a href='#about'>About</a>
+          <a href="#about">About</a>
         </li>
         <li>
           <a href="#project">Project</a>

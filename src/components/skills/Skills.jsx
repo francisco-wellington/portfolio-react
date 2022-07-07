@@ -8,7 +8,6 @@ import ImgReact from '../../assets/react.png'
 import ImgSass from '../../assets/sass.png'
 import ImgMongoDb from '../../assets/mongo.png'
 
-
 const Skills = () => {
   return (
     <div className="skill" id="skill">
@@ -24,8 +23,8 @@ const Skills = () => {
             <h3>HTML 5</h3>
           </div>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis,
-            explicabo.
+            Estrutura da linguagem, Formulários, Listas, Eventos, Tags
+            Semânticas.
           </p>
         </div>
         <div className="skill-box">
@@ -36,8 +35,8 @@ const Skills = () => {
             <h3>CSS</h3>
           </div>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis,
-            explicabo.
+            Seletores, Estilização, Layout e Animação, FlexBox, Responsividade,
+            Grid.
           </p>
         </div>
         <div className="skill-box">
@@ -48,8 +47,8 @@ const Skills = () => {
             <h3>Javascript</h3>
           </div>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis,
-            explicabo.
+            Condicionais e Loops, Funções, Arrys, Objetos, Eventos, Modulos,
+            Async e Await.
           </p>
         </div>
         <div className="skill-box">
@@ -60,8 +59,8 @@ const Skills = () => {
             <h3>React JS</h3>
           </div>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis,
-            explicabo.
+            JSX, Template expressions, React Router, Props e States, Hooks do
+            React, Context API,
           </p>
         </div>
         <div className="skill-box">
@@ -72,20 +71,8 @@ const Skills = () => {
             <h3>Sass</h3>
           </div>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis,
-            explicabo.
-          </p>
-        </div>
-        <div className="skill-box">
-          <div className="skill-title">
-            <div className="img">
-              <img src={ImgMongoDb} className="skill-icon" />
-            </div>
-            <h3>Mongo DB</h3>
-          </div>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis,
-            explicabo.
+            Uso de Variáveis, Nested Selectors, Modules, Mixins (funções),
+            Extend, Partials.
           </p>
         </div>
       </div>
