@@ -6,6 +6,7 @@ import pro5 from '../../assets/projeto5.png'
 import pro6 from '../../assets/projeto6.png'
 import pro7 from '../../assets/projeto7.png'
 import pro8 from '../../assets/projeto8.png'
+import pro9 from '../../assets/projeto9.png'
 
 const ProjectCardData = [
   {
@@ -56,6 +57,13 @@ const ProjectCardData = [
     text: 'Como o uso do linktree é bem limitado no modo free, a empresa decidiu, criar o seu próprio modelo de links, para colocar na bio do instagram, sendo que a mesma é limitada para apenas um link. ',
     view: 'https://dancing-crisp-ee6b2a.netlify.app',
     source: 'https://github.com/WellingtonSilva12/nobre-links'
+  },
+  {
+    imgsrc: pro9,
+    title: 'Sticky Notes',
+    text: 'Este é um modelo de CRUD, baseado em bloco de notas adesivas, criado usando html, css e javascript puro, quando banco de dados localStorage',
+    view: 'https://wellingtonsilva12.github.io/sticky-notes/',
+    source: 'https://github.com/WellingtonSilva12/sticky-notes'
   }
 ]
 
