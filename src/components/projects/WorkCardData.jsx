@@ -7,6 +7,8 @@ import pro6 from '../../assets/projeto6.png'
 import pro7 from '../../assets/projeto7.png'
 import pro8 from '../../assets/projeto8.png'
 import pro9 from '../../assets/projeto9.png'
+import pro11 from '../../assets/projeto11.png'
+import pro12 from '../../assets/projeto12.png'
 
 const ProjectCardData = [
   {
@@ -25,10 +27,10 @@ const ProjectCardData = [
   },
   {
     imgsrc: pro5,
-    title: 'API RESTful - Buscador de Cep',
+    title: 'Buscador de CEP',
     text: 'Buscardor de Endereço por CEP, esse projeto usei uma API REST de consulta de CEP, onde o usuário coloca o CEP, e o aplicativo pesquisa e retorna um endereço para o usuário. Neste projeto, tive algumas dificuldades com o javascript, especificamente em tratamento de error. Mas com algumas pesquisas e estudo, conseguir tratar alguns erros no aplicativo. No entanto, aprendi vários conceito sobre o fetch.',
-    view: 'https://wellingtonsilva12.github.io/api-javascript/',
-    source: 'https://github.com/WellingtonSilva12/api-javascript'
+    view: 'https://nwell-dev.github.io/zip-code-finder/',
+    source: 'https://github.com/nwell-dev/zip-code-finder'
   },
   {
     imgsrc: pro6,
@@ -64,6 +66,20 @@ const ProjectCardData = [
     text: 'Este é um modelo de CRUD, baseado em bloco de notas adesivas, criado usando html, css e javascript puro, quando banco de dados localStorage',
     view: 'https://wellingtonsilva12.github.io/sticky-notes/',
     source: 'https://github.com/WellingtonSilva12/sticky-notes'
+  },
+  {
+    imgsrc: pro11,
+    title: 'Dictionary Javascript',
+    text: 'Este projeto que te possibilita a pesquisar o significado das palavras em português, assim lhe trazendo um resultado como a classe da palavra, o gênero, a etimologia e o significado',
+    view: 'https://magenta-treacle-0ad8d6.netlify.app',
+    source: 'https://github.com/nwell-dev/dictionary-br'
+  },
+  {
+    imgsrc: pro12,
+    title: 'Text translator',
+    text: 'Projeto criado, utilizando a API MyMemory Translated. O intuito desse projeto é de traduzir os textos das principais línguas mais falada do mundo',
+    view: 'https://nwell-dev.github.io/translate-js/',
+    source: 'https://github.com/nwell-dev/translate-js'
   }
 ]
 
