@@ -15,14 +15,14 @@ const ProjectCardData = [
     imgsrc: pro3,
     title: 'Expense and Income Control',
     text: 'Crud desenvolvido para controle financeiro, entrada e saida. Nesse projeto usei as seguintes tecnologias: HTML, CSS, Javascript e Firebase. Com diversas dificuldades e muita pesquisa, conseguir concluir. As minhas principais dificuldades foi a integração de banco de dados noSQL, pois tive pouco contato com a ferramenta, mas com algumas pesquisas conseguir chegar no objetivo.',
-    view: 'https://wellingtonsilva12.github.io/expense-and-income-control/',
-    source: 'https://github.com/WellingtonSilva12/expense-and-income-control'
+    view: 'https://nwell-dev.github.io/expense-and-income-control/',
+    source: 'https://github.com/nwell-dev/expense-and-income-control'
   },
   {
     imgsrc: pro4,
     title: 'Login and Signup Screen',
     text: 'Tela de login e cadastro, tipo mobile, utilizando os conceitos já adquiridos durante meus estudos. Neste projeto, meu maior desafio foi desenvolver a lógica de transição de tela e adicionar o botão de ação que mostra a senha do usuário, ambos utilizando javascript. Neste projeto fiz uso do pré-processador de css, Sass. Isso tornou o css do projeto bem mais compreensível e fácil de realizar manutenção no código',
-    view: 'https://wellingtonsilva12.github.io/login-and-signup/',
+    view: 'https://nwell-dev.github.io/login-and-signup/',
     source: 'https://github.com/WellingtonSilva12/login-and-signup'
   },
   {
@@ -36,14 +36,14 @@ const ProjectCardData = [
     imgsrc: pro6,
     title: 'Agencia Digital',
     text: 'Este é um layout de um site, que achei no uistore, onde a proposta era de criar um site responsivo, pra uma agencia de publicidade, com foco no crecimento das empresas clientes. ',
-    view: 'https://wellingtonsilva12.github.io/Project-Agency/',
+    view: 'https://nwell-dev.github.io/Project-Agency/',
     source: 'https://github.com/WellingtonSilva12/Project-Agency'
   },
   {
     imgsrc: pro2,
     title: 'Calculadora de Bloco',
     text: 'Esta éuma calculadora, que realiza calculos baseado na empresa na qual trabalhei, onde o objetivo era de calcular, a numeração dos blocos numerado.',
-    view: 'https://wellingtonsilva12.github.io/CalculadoraBlocoAzul/',
+    view: 'https://nwell-dev.github.io/CalculadoraBlocoAzul/',
     source: 'https://github.com/WellingtonSilva12/CalculadoraBlocoAzul'
   },
   {
@@ -64,7 +64,7 @@ const ProjectCardData = [
     imgsrc: pro9,
     title: 'Sticky Notes',
     text: 'Este é um modelo de CRUD, baseado em bloco de notas adesivas, criado usando html, css e javascript puro, quando banco de dados localStorage',
-    view: 'https://wellingtonsilva12.github.io/sticky-notes/',
+    view: 'https://nwell-dev.github.io/sticky-notes/',
     source: 'https://github.com/WellingtonSilva12/sticky-notes'
   },
   {
