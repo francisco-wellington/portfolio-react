@@ -29,14 +29,14 @@ const FormContact = () => {
   return (
     <div id="contact" className="form">
       <form ref={form} onSubmit={sendEmail}>
-        <h2>Contact</h2>
-        <label> Your Name </label>
+        <h2>Contato</h2>
+        <label> Nome </label>
         <input type="text" name="name" required />
         <label> Email </label>
         <input type="email" name="user_email" required />
-        <label> Subject </label>
+        <label> Assunto </label>
         <input type="text" name="subject" />
-        <label> Message </label>
+        <label> Mensagem </label>
         <textarea
           name="message"
           row="4"
@@ -44,7 +44,7 @@ const FormContact = () => {
           required
         />
         <button className="btn" type="submit">
-          Submit
+          Enviar
         </button>
       </form>
     </div>
