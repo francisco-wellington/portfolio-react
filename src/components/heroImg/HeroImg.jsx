@@ -2,7 +2,7 @@ import React from 'react'
 import './styleHero.css'
 
 import IntoVid from '../../assets/video-home.mp4'
-import Resume from '../../assets/resume-cv.pdf'
+import Resume from '../../assets/resume2-cv.pdf'
 
 const HeroImg = () => {
   return (
