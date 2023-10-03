@@ -34,7 +34,7 @@ const Navbar = () => {
     <nav className={color ? 'header header-bg' : 'header'}>
       <a href="#home">
         <h1>
-          <span>in</span>Well
+          <span></</span>Well
         </h1>
       </a>
 
