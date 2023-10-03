@@ -20,7 +20,7 @@ const HeroImg = () => {
         <div className="btn-home">
           <a href={Resume}>Download CV</a>
           <a href="#contact" className="btn-outline">
-            Contact
+            Contato
           </a>
         </div>
       </div>
