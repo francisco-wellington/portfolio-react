@@ -43,13 +43,13 @@ const Navbar = () => {
           <a href="#home">Home</a>
         </li>
         <li>
-          <a href="#about">About</a>
+          <a href="#about">Sobre</a>
         </li>
         <li>
-          <a href="#project">Project</a>
+          <a href="#project">Projetos</a>
         </li>
         <li>
-          <a href="#contact">Contact</a>
+          <a href="#contact">Contato</a>
         </li>
       </ul>
       <div onClick={navToggle} className={iconToggle}>
