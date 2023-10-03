@@ -6,7 +6,7 @@ import ProjectHome from './ProjectHome'
 const Work = () => {
   return (
     <div id='project' className='work-container'>
-      <h2>Projects</h2>
+      <h2>Projetos</h2>
       <div className="project-container">
         {WorkCardData.map((val, ind) => {
           return (
