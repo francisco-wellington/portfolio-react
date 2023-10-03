@@ -5,7 +5,7 @@ import FotoPerfil from '../../assets/foto-perfil.png'
 const AboutHome = () => {
   return (
     <div id="about" className="about-container">
-      <h2>About</h2>
+      <h2>Sobre Mim</h2>
       <div className="about">
         <div className="left">
           <img src={FotoPerfil} alt="foto de perfil" />
@@ -20,7 +20,7 @@ const AboutHome = () => {
           </p>
           <div className="redes-sociais">
             <a
-              href="https://www.linkedin.com/in/nwellingtonsilva/"
+              href="https://www.linkedin.com/in/wellingtonsilva12/"
               target="blank"
             >
               <i class="bx bxl-linkedin-square"></i>
