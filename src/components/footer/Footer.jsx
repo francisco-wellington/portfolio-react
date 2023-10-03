@@ -11,13 +11,13 @@ const Footer = () => {
               <a href="#home">Home</a>
             </li>
             <li>
-              <a href="#about">About</a>
+              <a href="#about">Sobre</a>
             </li>
             <li>
-              <a href="#project">Projects</a>
+              <a href="#project">Projetos</a>
             </li>
             <li>
-              <a href="#contact">Contact</a>
+              <a href="#contact">Contato</a>
             </li>
           </ul>
         </div>
@@ -39,12 +39,12 @@ const Footer = () => {
           </a>
         </div>
         <div className="contact-footer">
-          <p>get in touch</p>
+          <p>Entre em Contato</p>
         </div>
         <div className="desc-footer">
           <p>
             2022 &copy; All Rights Reserved •{' '}
-            <a href="https://www.linkedin.com/in/nwellingtonsilva/">
+            <a href="https://www.linkedin.com/in/wellingtonsilva12/">
               Wellington Silva
             </a>
           </p>
